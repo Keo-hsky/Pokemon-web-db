@@ -1,0 +1,6 @@
+--database: ./pokemon.db
+
+ --just one
+
+SELECT * FROM Pokemon JOIN Pokemon ON Pokemon.PokemonID=pokemon_info.ID
+WHERE pokemon.PokemonID = 2;
